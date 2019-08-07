@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="JT_Network" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/JT_Network" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/JT_Network" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Unix">
+				<Option output="bin/Unix/JT_Network" prefix_auto="1" extension_auto="1" />
+				<Option object_output=".unix-objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="WinLibrary">
+				<Option output="HN_Network" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="HN_CSS/HN_CSS.cpp" />
+		<Unit filename="HN_CSS/HN_CSS.hpp" />
+		<Unit filename="HN_CSS/HN_StringCSS.cpp" />
+		<Unit filename="HN_CSS/HN_StringCSS.hpp" />
+		<Unit filename="HN_Javascript/HN_Javascript.cpp" />
+		<Unit filename="HN_Javascript/HN_Javascript.hpp" />
+		<Unit filename="HN_Javascript/HN_StringJavascript.cpp" />
+		<Unit filename="HN_Javascript/HN_StringJavascript.hpp" />
+		<Unit filename="HN_Json/HN_JsonLoader.cpp" />
+		<Unit filename="HN_Json/HN_JsonLoader.hpp" />
+		<Unit filename="HN_XML/HN_Attributes/HN_Attributes.cpp" />
+		<Unit filename="HN_XML/HN_Attributes/HN_Attributes.hpp" />
+		<Unit filename="HN_XML/HN_Attributes/HN_ExternAttributes.cpp" />
+		<Unit filename="HN_XML/HN_Attributes/HN_ExternAttributes.hpp" />
+		<Unit filename="HN_XML/HN_Attributes/HN_FAttributes.cpp" />
+		<Unit filename="HN_XML/HN_Attributes/HN_FAttributes.hpp" />
+		<Unit filename="HN_XML/HN_DTD/HN_DTD.cpp" />
+		<Unit filename="HN_XML/HN_DTD/HN_DTD.hpp" />
+		<Unit filename="HN_XML/HN_Document/HN_Document.cpp" />
+		<Unit filename="HN_XML/HN_Document/HN_Document.hpp" />
+		<Unit filename="HN_XML/HN_Node/HN_FNode.cpp" />
+		<Unit filename="HN_XML/HN_Node/HN_FNode.hpp" />
+		<Unit filename="HN_XML/HN_Node/HN_Node.cpp" />
+		<Unit filename="HN_XML/HN_Node/HN_Node.hpp" />
+		<Unit filename="HN_XML/HN_Node/HN_SNode.cpp" />
+		<Unit filename="HN_XML/HN_Node/HN_SNode.hpp" />
+		<Unit filename="HN_XML/HN_Xml.cpp" />
+		<Unit filename="HN_XML/HN_Xml.hpp" />
+		<Unit filename="main.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Unix" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
