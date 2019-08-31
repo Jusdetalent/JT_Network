@@ -1,0 +1,15 @@
+
+echo "Configuration ..."
+
+# Build require object folders
+mkdir bin -p
+mkdir objs -p
+mkdir objs/HN_CSS -p
+mkdir objs/HN_Javascript -p
+mkdir objs/HN_XML -p
+mkdir objs/HN_XML/HN_Attributes -p
+mkdir objs/HN_XML/HN_Document -p
+mkdir objs/HN_XML/HN_DTD -p
+mkdir objs/HN_XML/HN_Node -p
+
+echo "Pret pou la compilation, taper make et appuiyer sur enter."

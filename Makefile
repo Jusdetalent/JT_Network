@@ -88,7 +88,12 @@ clean:
 	rm $(BIN) $(OBJ)
 
 install:
+	mkdir /usr -p
+	mkdir /usr/local -p
+	mkdir /usr/local/lib -p
 	cp -f $(BIN) /usr/local/lib/libHN_Network.a
+	
+	mkdir /usr/local/include -p
 	mkdir /usr/local/include/HN_Network -p
 	mkdir /usr/local/include/HN_Network/HN_CSS -p
 	cp -f $(CSS_DIR)HN_CSS.hpp /usr/local/include/HN_Network/HN_CSS/HN_CSS.hpp
